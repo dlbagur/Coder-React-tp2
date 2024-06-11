@@ -2,7 +2,7 @@ import { Flex, Heading } from '@chakra-ui/react'
 import React, { useEffect, useState } from 'react'
 import './ItemListContainer.css'
 import { getProducts, getProductsByCategory } from '../../data/asyncMock'
-import ItemList from '../ItemList/ItemList'
+import ItemList from "../ItemList/ItemList"
 import { useParams, useSearchParams } from 'react-router-dom'
 import { ScaleLoader } from 'react-spinners'
 
@@ -21,7 +21,6 @@ const ItemListContainer = ({title}) => {
       .finally(()=>setLoading(false))
 
   },[categoryId])
-  console.log(products)
 
   return (
     <Flex

@@ -5,7 +5,7 @@ export const productos = [
     marca : "Catena Zapata",
     nombre : "Estiba Reservada",
     precio : 314000,
-    imagen : "https://www.espaciovino.com.ar/vinos-ficha/Catena-Zapata-Estiba-Reservada",
+    img : "../imagenes/EstibaReservada.jpeg",
     descripcion: "Elegido el momento de la cosecha se seleccionan lotes en cada viñedo, luego se seleccionan plantas en cada lote elegido, luego los racimos que, una vez descobajados, terminan fermentando en pequeños barriles de roble francés, donde permanecen estacionados por aproximadamente 24 meses. Finalmente se seleccionan aquellos barriles que serán embotellados.",
     stock : 100
   },
@@ -14,8 +14,8 @@ export const productos = [
     variedad: "Tintos",
     marca : "Felipe Rutini",
     nombre : "Felipe Rutini",
-    precio : 220000,
-    imagen : "../imagenes/FelipeRutini.jpeg",
+    precio : 280000,
+    img : "../imagenes/FelipeRutini.jpeg",
     descripcion: "",
     stock : 100
   },
@@ -25,7 +25,7 @@ export const productos = [
     marca : "Susana Balbo",
     nombre : "Nosotros",
     precio : 200000,
-    imagen : "../imagenes/Nosotros.jpeg",
+    img : "../imagenes/Nosotros.jpeg",
     descripcion: "",
     stock : 100
   },
@@ -35,7 +35,7 @@ export const productos = [
     marca : "Walter Bressia",
     nombre : "del Alma",
     precio : 180000,
-    imagen : "../imagenes/delAlma.jpeg",
+    img : "../imagenes/delAlma.jpeg",
     descripcion: "",
     stock : 100
   },
@@ -45,7 +45,7 @@ export const productos = [
     marca : "Catena Zapata",
     nombre : "Angélica Zapata",
     precio : 22000,
-    imagen : "../imagenes/AngelicaZapata-Chardonnay.png",
+    img : "../imagenes/AngelicaZapata-Chardonnay.png",
     descripcion: "",
     stock : 100
   },
@@ -55,7 +55,7 @@ export const productos = [
     marca : "Walter Bressia",
     nombre : "Lagrima Canela",
     precio : 20000,
-    imagen : "../imagenes/LagrimaCanela.jpeg",
+    img : "../imagenes/LagrimaCanela.jpeg",
     descripcion: "",
     stock : 100
   },
@@ -65,7 +65,7 @@ export const productos = [
     marca : "Casa Boher",
     nombre : "Gran Chardonnay",
     precio : 18000,
-    imagen : "../imagenes/CasaBoher-GranChardonnay.jpeg",
+    img : "../imagenes/CasaBoher-GranChardonnay.jpeg",
     descripcion: "",
     stock : 100
   },
@@ -75,7 +75,7 @@ export const productos = [
     marca : "Luigi Bosca",
     nombre : "Chardonnay",
     precio : 14000,
-    imagen : "../imagenes/LuigiBoscaChardonnay.jpeg",
+    img : "../imagenes/LuigiBoscaChardonnay.jpeg",
     descripcion: "",
     stock : 100
   },
@@ -85,7 +85,7 @@ export const productos = [
     marca : "Susana Balbo",
     nombre : "Signature Rosé",
     precio : 32000,
-    imagen : "../imagenes/Signature-Rose.jpeg",
+    img : "../imagenes/Signature-Rose.jpeg",
     descripcion: "",
     stock : 100
   },
@@ -95,7 +95,7 @@ export const productos = [
     marca : "Casa Boher",
     nombre : "Casa Boher Rosé",
     precio : 22000,
-    imagen : "../imagenes/CasaBoherRose.jpeg",
+    img : "../imagenes/CasaBoherRose.jpeg",
     descripcion: "",
     stock : 100
   },
@@ -105,7 +105,7 @@ export const productos = [
     marca : "Luigi Bosca",
     nombre : "Rose",
     precio : 15000,
-    imagen : "../imagenes/LuigiBoscaRose.jpeg",
+    img : "../imagenes/LuigiBoscaRose.jpeg",
     descripcion: "",
     stock : 100
   },
@@ -115,7 +115,7 @@ export const productos = [
     marca : "Domain Bousquet",
     nombre : "Gaia Rose",
     precio : 10000,
-    imagen : "../imagenes/DomaineBousquetGaiaRose.jpeg",
+    img : "../imagenes/DomaineBousquetGaiaRose.jpeg",
     descripcion: "",
     stock : 100
   },
@@ -125,7 +125,7 @@ export const productos = [
     marca : "Rosell Boher",
     nombre : "Brut",
     precio : 25000,
-    imagen : "../imagenes/RosellBoher.jpg",
+    img : "../imagenes/RosellBoher.jpg",
     descripcion: "",
     stock : 100
   },
@@ -135,7 +135,7 @@ export const productos = [
     marca : "Luigi Bosca",
     nombre : "Boheme",
     precio : 20000,
-    imagen : "../imagenes/LuigiBoscaBoheme.jpeg",
+    img : "../imagenes/LuigiBoscaBoheme.jpeg",
     descripcion: "",
     stock : 100
   },
@@ -145,7 +145,7 @@ export const productos = [
     marca : "Chandon",
     nombre : "Baron B Nature",
     precio : 18000,
-    imagen : "../imagenes/BaronBNature.jpeg",
+    img : "../imagenes/BaronBNature.jpeg",
     descripcion: "",
     stock : 100
   },
@@ -155,7 +155,7 @@ export const productos = [
     marca : "Cruzat",
     nombre : "Cuvée Nature",
     precio : 14000,
-    imagen : "../imagenes/CruzatCuveeNature.jpeg",
+    img : "../imagenes/CruzatCuveeNature.jpeg",
     descripcion: "",
     stock : 100
   },

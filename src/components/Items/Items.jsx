@@ -3,43 +3,42 @@ import { Card, CardHeader, CardBody, CardFooter, Image, Stack, Text, ButtonGroup
 import { Link } from 'react-router-dom';
 
 const Item = ({id, nombre, marca, img, precio}) => {
-    return (
+
+  return (
+
       <Card maxW='sm' border='3px' borderColor='#243F4D' boxShadow='2xl'>
         <CardBody>
           <Stack mt='6' spacing='3'>
-            <Heading size='md'>{id}</Heading>
-            <Text color='black' fontSize='2m'>
-              ${id}
-            </Text>
+            <Heading size='sm' color={'brown'}>Cod. Producto: {id}</Heading>
           </Stack>
           
           <Stack mt='6' spacing='3'>
-            <Heading size='md'>{nombre}</Heading>
+            <Heading size='l' color={'brown'}>Producto</Heading>
             <Text color='blue.600' fontSize='2xl'>
-              ${nombre}
+                {nombre}
             </Text>
           </Stack>
 
           
           <Stack mt='6' spacing='3'>
-            <Heading size='md'>{nombre}</Heading>
+            <Heading size='l' color={'brown'}>Bodega</Heading>
             <Text color='blue.600' fontSize='2xl'>
-              ${marca}
+              {marca}
             </Text>
           </Stack>
           
-            <Image
+          <Image
             src={img}
             alt={nombre}
             borderRadius='md'
-            boxSize='100%'
+            boxSize='40%'
             objectFit='cover' 
-            w={'300px'}
-            h='300px' 
+            w={'100px'}
+            h='200px' 
           />
-                    
+                  
           <Stack mt='6' spacing='3'>
-            <Heading size='md'>{precio}</Heading>
+            <Heading size='md'>Precio por unidad:</Heading>
             <Text color='blue.600' fontSize='2xl'>
               ${precio}
             </Text>

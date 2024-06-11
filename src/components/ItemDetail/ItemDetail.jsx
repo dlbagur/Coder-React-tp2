@@ -1,9 +1,9 @@
 import React from 'react'
 import ItemCount from '../ItemCount/ItemCount'
-import { ToastContainer, toast} from 'reeact-toastify'
+import { ToastContainer, toast} from 'react-toastify'
 import { Box } from '@chakra-ui/react'
 
-function ItemDetail({nombre, descripcion, precio, stock}) {
+function ItemDetail({nombre, descripcion, precio}) {
     console.log('ItemDetail', producto)  
     
     const onAdd = (cantidad) => {

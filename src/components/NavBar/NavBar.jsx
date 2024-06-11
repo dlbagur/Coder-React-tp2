@@ -10,6 +10,7 @@ import {
   } from '@chakra-ui/react'
 import { TiArrowDownOutline } from "react-icons/ti";
 import { Link } from 'react-router-dom';
+import logo from "../../imagenes/logo.png"
 
 const NavBar = () => {
   return (
@@ -20,13 +21,10 @@ const NavBar = () => {
         align={'center'} 
         backgroundColor={'#c8b6ff'}
         >
-        {/* <Heading fontSize={'xl'} m={2}> */}
-        {/* <Link to='/0'>La Vinoteca */}
-          <ChakraLink as={Link} to='/'>
-            <Image w={'60%'} src={'../../imagenes/logo.png'} />
-            // La Vinoteca
-          </ChakraLink>
-        {/* </Heading> */}
+        <ChakraLink as={Link} width={'30%'} to='/'>
+          <Image w={'10%'} src={logo}/>
+        </ChakraLink>
+
         <Menu>
             <MenuButton as={Button} rightIcon={<TiArrowDownOutline />}>
                 Sus Vinos
