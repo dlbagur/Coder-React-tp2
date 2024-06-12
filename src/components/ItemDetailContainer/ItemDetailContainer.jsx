@@ -10,33 +10,23 @@ const ItemDetailContainer = () => {
     const [ loading, setLoading ] = useState(true)
     const { productId } = useParams()
 
-    const Navigate = useNavigate()
+    const navigate = useNavigate()
 
     useEffect(() => {
         getProductById(productId)
-            .then((data) => setProducto(data))
+            .then((data) => {
+                if (!data) {
+                    navigate('/*')
+                } else {
+                    setProducto(data)
+                }
+            })
             .catch((error) => console.log(error))
             .finally(() => setLoading(false))
-
-    // useEffect(() => {
-    //     setLoading(true)
-    //     const dataProductos = categoryId ? 
-        
-    //     getProductById(productId)
-    //         .then((data) => {
-    //             if (!data) {
-    //                 Navigate('/*')
-    //             } else {
-    //                 setProducto(data)
-    //             }
-    //         })
-    //         .catch((error) => console.log(error))
-    //         .finally(() => setLoading(false))
     },[])
 
-    console.log(producto)  
     return (
-        <div>
+        <>
         {
             loading ?
             <Flex justify={'center'} align={'center'} h={'50hv'}>
@@ -45,7 +35,7 @@ const ItemDetailContainer = () => {
             :
             <ItemDetail {...producto} />
         }
-        </div>
+        </>
   )
 }
 

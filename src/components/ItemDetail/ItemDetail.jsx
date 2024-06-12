@@ -4,10 +4,9 @@ import { ToastContainer, toast} from 'react-toastify'
 import { Box } from '@chakra-ui/react'
 
 const ItemDetail = ({nombre, descripcion,precio, stock}) => {
-    console.log('ItemDetail', nombre)  
     
     const onAdd = (cantidad) => {
-        toast(`Agregaste ${quantity} unidad/es`)
+        toast(`Agregaste ${cantidad} unidad/es`)
     }
 
   return (
