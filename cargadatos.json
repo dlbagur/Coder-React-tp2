@@ -1,0 +1,148 @@
+{
+    "ofertavinos": [
+      {
+        "variedad": "Tintos",
+        "orden" : 1,
+        "marca" : "Catena Zapata",
+        "nombre" : "Estiba Reservada",
+        "precio" : 250000.00,
+        "imagen" : "./imagenes/EstibaReservada.jpeg",
+        "cantidad" : 0
+      },
+      {
+        "variedad": "Tintos",
+        "orden" : 2,
+        "marca" : "Felipe Rutini",
+        "nombre" : "Felipe Rutini",
+        "precio" : 220000.00,
+        "imagen" : "./imagenes/FelipeRutini.jpeg",
+        "cantidad" : 0
+      },
+      {
+        "variedad": "Tintos",
+        "orden" : 3,
+        "marca" : "Susana Balbo",
+        "nombre" : "Nosotros",
+        "precio" : 200000.00,
+        "imagen" : "./imagenes/Nosotros.jpeg",
+        "cantidad" : 0
+      },
+      {
+        "variedad": "Tintos",
+        "orden" : 4,
+        "marca" : "Walter Bressia",
+        "nombre" : "del Alma",
+        "precio" : 180000.00,
+        "imagen" : "./imagenes/delAlma.jpeg",
+        "cantidad" : 0
+      },
+      {
+        "variedad": "Blancos",
+        "orden" : 5,
+        "marca" : "Catena Zapata",
+        "nombre" : "Angélica Zapata",
+        "precio" : 22000.00,
+        "imagen" : "./imagenes/AngelicaZapata-Chardonnay.png",
+        "cantidad" : 0
+      },
+      {
+        "variedad": "Blancos",
+        "orden" : 6,
+        "marca" : "Walter Bressia",
+        "nombre" : "Lagrima Canela",
+        "precio" : 20000.00,
+        "imagen" : "./imagenes/LagrimaCanela.jpeg",
+        "cantidad": 0
+      },
+      {
+        "variedad": "Blancos",
+        "orden" : 7,
+        "marca" : "Casa Boher",
+        "nombre" : "Gran Chardonnay",
+        "precio" : 18000.00,
+        "imagen" : "./imagenes/CasaBoher-GranChardonnay.jpeg",
+        "cantidad" : 0
+      },
+      {
+        "variedad": "Blancos",
+        "orden" : 8,
+        "marca" : "Luigi Bosca",
+        "nombre" : "Chardonnay",
+        "precio" : 14000.00,
+        "imagen" : "./imagenes/LuigiBoscaChardonnay.jpeg",
+        "cantidad" : 0
+      },
+      {
+        "variedad": "Rosados",
+        "orden" : 9,
+        "marca" : "Susana Balbo",
+        "nombre" : "Signature Rosé",
+        "precio" : 32000.00,
+        "imagen" : "./imagenes/Signature-Rose.jpeg",
+        "cantidad" : 0
+      },
+      {
+        "variedad": "Rosados",
+        "orden" : 10,
+        "marca" : "Casa Boher",
+        "nombre" : "Casa Boher Rosé",
+        "precio" : 22000.00,
+        "imagen" : "./imagenes/CasaBoherRose.jpeg",
+        "cantidad" : 0
+      },
+      {
+        "variedad": "Rosados",
+        "orden" : 11,
+        "marca" : "Luigi Bosca",
+        "nombre" : "Rose",
+        "precio" : 15000.00,
+        "imagen" : "./imagenes/LuigiBoscaRose.jpeg",
+        "cantidad" : 0
+      },
+      {
+        "variedad": "Rosados",
+        "orden" : 12,
+        "marca" : "Domain Bousquet",
+        "nombre" : "Gaia Rose",
+        "precio" : 10000.00,
+        "imagen" : "./imagenes/DomaineBousquetGaiaRose.jpeg",
+        "cantidad" : 0
+      },
+      {
+        "variedad": "Espumantes",
+        "orden" : 13,
+        "marca" : "Rosell Boher",
+        "nombre" : "Brut",
+        "precio" : 25000.00,
+        "imagen" : "./imagenes/RosellBoher.jpg",
+        "cantidad" : 0
+      },
+      {
+        "variedad": "Espumantes",
+        "orden" : 14,
+        "marca" : "Luigi Bosca",
+        "nombre" : "Boheme",
+        "precio" : 20000.00,
+        "imagen" : "./imagenes/LuigiBoscaBoheme.jpeg",
+        "cantidad" : 0
+      },
+      {
+        "variedad": "Espumantes",
+        "orden" : 15,
+        "marca" : "Chandon",
+        "nombre" : "Baron B Nature",
+        "precio" : 18000.00,
+        "imagen" : "./imagenes/BaronBNature.jpeg",
+        "cantidad" : 0
+      },
+      {
+        "variedad": "Espumantes",
+        "orden" : 16,
+        "marca" : "Cruzat",
+        "nombre" : "Cuvée Nature",
+        "precio" : 14000.00,
+        "imagen" : "./imagenes/CruzatCuveeNature.jpeg",
+        "cantidad" : 0
+      }
+    ]
+  }
