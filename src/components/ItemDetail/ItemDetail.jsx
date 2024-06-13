@@ -51,39 +51,3 @@ const ItemDetail = ({marca, nombre, descripcion, img, precio, stock}) => {
 }
 
 export default ItemDetail
-
-
-// npm install @chakra-ui/react @emotion/react @emotion/styled framer-motion
-
-
-// const CenteredBox = ({ children }) => {
-//   return (
-//     <Box
-//       display="flex"
-//       justifyContent="center"
-//       alignItems="center"
-//       height="100vh"
-//     >
-//       {children}
-//     </Box>
-//   );
-// };
-
-// export default CenteredBox;
-
-// import React from 'react';
-// import ReactDOM from 'react-dom';
-// import { ChakraProvider } from '@chakra-ui/react';
-// import CenteredBox from './CenteredBox';
-
-// const App = () => {
-//   return (
-//     <ChakraProvider>
-//       <CenteredBox>
-//         <h1>Mi Contenido Centrado</h1>
-//       </CenteredBox>
-//     </ChakraProvider>
-//   );
-// };
-
-// ReactDOM.render(<App />, document.getElementById('root'));
