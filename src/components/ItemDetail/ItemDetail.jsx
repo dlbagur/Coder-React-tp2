@@ -1,50 +1,61 @@
 import React from 'react'
 import ItemCount from '../ItemCount/ItemCount'
 import { ToastContainer, toast} from 'react-toastify'
-import { Box, Flex } from '@chakra-ui/react'
+import { Box, Flex, useMediaQuery } from '@chakra-ui/react'
 
 const ItemDetail = ({marca, nombre, descripcion, img, precio, stock}) => {
     console.log("imagen: ", img)
+    const [isLargerThan768] = useMediaQuery("(min-width: 768px)");
     const onAdd = (cantidad) => {
         toast(`Agregaste ${cantidad} unidad/es`)
     }
 
   return (
-    <Flex>
+    <Flex direction={['column', 'row']} wrap="wrap">
       <Box
-          width = '20%'
-          alignItems="center"
-          height="50vh"
-          display="flex"
-          flexDirection='column'
-          bg='gray.300' 
-          color='brown' 
-          fontSize='2xl' 
-          >
-        <Box p='50px' >Producto:</Box>
-        <Box p='5px' fontWeight='bold'>{nombre}</Box>
-        <Box p='50px' >Bodega:</Box>
-        <Box p='5px' fontWeight='bold'>{marca}</Box>
+        width={['100%', '20%']}
+        alignItems="center"
+        height="400px"
+        display="flex"
+        flexDirection="column"
+        bg="gray.300"
+        color="brown"
+        fontSize={isLargerThan768 ? '2xl' : 'xl'}
+        p={['10px', '30px']}
+        textAlign="center"
+      >
+        <Box>Producto:</Box>
+        <Box fontWeight="bold">{nombre}</Box>
+        <Box>Bodega:</Box>
+        <Box fontWeight="bold">{marca}</Box>
       </Box>
-      <Box 
-          bg='#B4B6BE'
-          width = '80%'
-          display="flex"
-          p='20'
-          justifyContent="center"
-          alignItems="center"
-          height="50vh"
-          flexDirection='column'
-          color='black' 
-          fontSize='2xl'>
-          <Box mb='20px'>{descripcion}</Box>
-          <Box mb='20px' fontWeight='bold' >Precio por unidad: ${precio}</Box>
-      </Box>
+
       <Box
-          width = '20%'
-          p='50' bg='red.800' size='2xl' color={'brown'}>
-              <ItemCount stock={stock} valorInicial={1} onAdd={onAdd}/>
-              <ToastContainer />
+        bg="#B4B6BE"
+        width={['100%', '60%']}
+        display="flex"
+        p={['10px', '20px']}
+        justifyContent="center"
+        alignItems="center"
+        height="400px"
+        flexDirection="column"
+        color="black"
+        fontSize={isLargerThan768 ? 'xl' : 'l'}
+        textAlign="center"
+      >
+        <Box mb="20px">{descripcion}</Box>
+        <Box mb="20px" fontWeight="bold">Precio por unidad: ${precio}</Box>
+      </Box>
+
+      <Box
+        width={['100%', '20%']}
+        p={['10px', '50px']}
+        bg="gray.300"
+        color="brown"
+        textAlign="center"
+      >
+        <ItemCount stock={stock} valorInicial={1} onAdd={onAdd} />
+        <ToastContainer />
       </Box>
     </Flex>
   )

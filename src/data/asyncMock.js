@@ -86,7 +86,7 @@ export const productos = [
     nombre : "Signature Rosé",
     precio : 32000,
     img : "/imagenes/Signature-Rose.jpeg",
-    descripcion: "Aroma: Frutos rojos combinados con notas florales y citricas. Sabor: Buen volumen y paladar franco. Paso graso con tensión, sabores suaves y fugaces, pero persistentes.",
+    descripcion: "Aroma a frutos rojos combinados con notas florales y citricas. Sabor con buen volumen y paladar franco. Paso graso con tensión, sabores suaves y fugaces, pero persistentes.",
     stock : 100
   },
   {

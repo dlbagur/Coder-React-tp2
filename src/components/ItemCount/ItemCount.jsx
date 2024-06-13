@@ -20,7 +20,7 @@ const ItemCount = ({stock, valorInicial, onAdd}) => {
         <Button colorScheme="blue" fontWeight="bold" onClick={decrementar} size="md">
           -
         </Button>
-        <Text fontSize="2xl" fontWeight="bold" color="white" mx="18px">
+        <Text fontSize="2xl" fontWeight="bold" color="black" mx="18px">
           {count}
         </Text>
         <Button colorScheme="blue" fontWeight="bold" onClick={incrementar} size="md">
