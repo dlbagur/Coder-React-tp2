@@ -6,22 +6,22 @@ const Item = ({id, nombre, marca, img, precio}) => {
 
   return (
 
-      <Card maxW='sm' border='3px' borderColor='#243F4D' boxShadow='2xl'>
+      <Card maxW='sm' borderColor='#243F4D' boxShadow='2xl'>
         <CardBody>
           <Stack mt='6' spacing='3'>
-            <Heading size='sm' color={'brown'}>Cod. Producto: {id}</Heading>
+            <Heading size='sm' color={'#868687'}>Código de Item: {id}</Heading>
           </Stack>
           
           <Stack mt='6' spacing='3'>
             <Heading size='l' color={'brown'}>Producto</Heading>
-            <Text color='blue.600' fontSize='2xl'>
+            <Text color='blue.600' fontSize='xl'>
                 {nombre}
             </Text>
           </Stack>
           
-          <Stack mt='6' spacing='3'>
+          <Stack mt='6' spacing='1'>
             <Heading size='l' color={'brown'}>Bodega</Heading>
-            <Text color='blue.600' fontSize='2xl'>
+            <Text color='blue.600' fontSize='xl'>
               {marca}
             </Text>
           </Stack>
@@ -29,6 +29,7 @@ const Item = ({id, nombre, marca, img, precio}) => {
           <Image
             src={img}
             alt={nombre}
+            mt='4'
             borderRadius='md'
             boxSize='40%'
             objectFit='cover' 

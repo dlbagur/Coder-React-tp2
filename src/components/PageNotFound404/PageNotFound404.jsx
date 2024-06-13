@@ -1,14 +1,19 @@
 import React from 'react'
-import { Flex, Spacer, Square, Text, Box, Image } from '@chakra-ui/react'
-import logo from "../../assets/imagenes/logo.png"
+import { Flex, Spacer, Square, Text, Box, Image, Center } from '@chakra-ui/react'
+import e404 from "../../../public/imagenes/error-404.jpg"
 
 function PageNotFound404() {
   return (
-    <Flex color='white' h={'10vh'} >
-      <Square bg='blue.800' size='300px'>
-        <Text> ERROR 404   </Text>
-        <Image src={logo} /> 
-      </Square>
+    <Flex m={150} color='white' h={'30vh'} >
+      <Center>
+        <Spacer />
+        <Square alignContent={'center'} bg='blue.800' size='250px'>
+          <Image src={e404} />
+        </Square>
+        <Square bg='blue.800' size='250px'>
+          <Text>Producto no encontrado</Text>
+        </Square>
+      </Center>
     </Flex>
   )
 }

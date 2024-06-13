@@ -10,7 +10,7 @@ import {
   } from '@chakra-ui/react'
 import { TiArrowDownOutline } from "react-icons/ti";
 import { Link } from 'react-router-dom';
-import logo from "../../assets/imagenes/logo.png"
+import logo from "/public/imagenes/logo.png"
 
 const NavBar = () => {
   return (
@@ -27,7 +27,7 @@ const NavBar = () => {
 
         <Menu>
             <MenuButton as={Button} rightIcon={<TiArrowDownOutline />}>
-                Sus Vinos
+                Nuestros Vinos
             </MenuButton>
             <MenuList>
                 <MenuItem>
