@@ -142,8 +142,8 @@ export const productos = [
   {
     id : 15,
     variedad: "Espumantes",
-    marca : "Chandon",
-    nombre : "Baron B - Cuvée Nature Millesimée",
+    marca : "Baron B",
+    nombre : "Cuvée Millesimée",
     precio : 18000,
     img : "/imagenes/BaronBNature.jpeg",
     descripcion: "Representa el estilo Baron B por su intensidad, complejidad, elegancia y delicadeza. De color amarillo dorado con destellos verdes. Aromas minerales, florales y sutiles trazas especiadas a anís. Su paladar se percibe al mismo tiempo fresco y untuoso, y el prolongado contacto con levaduras le otorga una vibrante textura cremosa.",
