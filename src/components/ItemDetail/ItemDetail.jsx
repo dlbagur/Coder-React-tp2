@@ -28,6 +28,9 @@ const ItemDetail = ({marca, nombre, descripcion, img, precio, stock}) => {
         <Box fontWeight="bold">{nombre}</Box>
         <Box>Bodega:</Box>
         <Box fontWeight="bold">{marca}</Box>
+        <Box mb="5px" mt="20"color="black" fontSize={'s'}>Precio por unidad:</Box>
+        <Box mb="20px" color="black" fontSize={'s'}>${precio}</Box>
+
       </Box>
 
       <Box
@@ -44,9 +47,7 @@ const ItemDetail = ({marca, nombre, descripcion, img, precio, stock}) => {
         textAlign="center"
       >
         <Box mb="20px">{descripcion}</Box>
-        <Box mb="20px" fontWeight="bold">Precio por unidad: ${precio}</Box>
       </Box>
-
       <Box
         width={['100%', '20%']}
         p={['10px', '50px']}

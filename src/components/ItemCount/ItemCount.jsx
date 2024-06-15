@@ -3,12 +3,9 @@ import { Box, Button, ButtonGroup, Flex, Text } from '@chakra-ui/react'
 
 const ItemCount = ({stock, valorInicial, onAdd}) => {
     const [ count, setCount ] = useState(valorInicial)
-    const stockXXX = stock
-  
     const incrementar = () => {
         count < stock && setCount(count + 1)
     }
-
     const decrementar = () => {
         count > valorInicial && setCount(count - 1)
     }
