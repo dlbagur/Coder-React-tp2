@@ -5,7 +5,7 @@ import { Box, Flex, useMediaQuery } from '@chakra-ui/react'
 
 const ItemDetail = ({marca, nombre, descripcion, img, precio, stock}) => {
     console.log("imagen: ", img)
-    const [isLargerThan768] = useMediaQuery("(min-width: 768px)");
+    const [largerThan800] = useMediaQuery("(min-width: 800px)");
     const onAdd = (cantidad) => {
         toast(`Agregaste ${cantidad} unidad/es`)
     }
@@ -20,7 +20,7 @@ const ItemDetail = ({marca, nombre, descripcion, img, precio, stock}) => {
         flexDirection="column"
         bg="gray.300"
         color="brown"
-        fontSize={isLargerThan768 ? '2xl' : 'xl'}
+        fontSize={largerThan800 ? '2xl' : 'xl'}
         p={['10px', '30px']}
         textAlign="center"
       >
@@ -40,7 +40,7 @@ const ItemDetail = ({marca, nombre, descripcion, img, precio, stock}) => {
         height="400px"
         flexDirection="column"
         color="black"
-        fontSize={isLargerThan768 ? 'xl' : 'l'}
+        fontSize={largerThan800 ? 'xl' : 'l'}
         textAlign="center"
       >
         <Box mb="20px">{descripcion}</Box>
